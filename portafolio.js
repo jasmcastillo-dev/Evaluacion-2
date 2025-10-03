@@ -4,42 +4,42 @@ console.log("hola");
       {
         title: "MediGO",
         category:"UX/UI",
-        photo: "img/Medigo.jpg",
+        photo: "Medigo.jpg",
       },
       {
         title: "Páginas amarillas",
         category: "UX/UI",
-        photo: "img/P.amarillas.jpg",
+        photo: "P.amarillas.jpg",
       },
       {
         title: "Yo mujer",
         category: "UX/UI",
-        photo: "img/Yomujer.jpg",
+        photo: "Yomujer.jpg",
       },
       {
         title: "Rojo Carmín",
         category: "Editorial",
-        photo: "img/Rojocarmin.jpg",
+        photo: "Rojocarmin.jpg",
       },
       {
         title: "Cumbres borrascosas",
         category: "Editorial",
-        photo: "img/Clásicos.jpg",
+        photo: "Clásicos.jpg",
       },
       {
         title: "Guau",
         category: "Identidad visual",
-        photo: "img/Guau.jpg",
+        photo: "Guau.jpg",
       },
       {
         title: "Cowzy",
         category: "Identidad visual",
-        photo: "img/Cowzy.jpg",
+        photo: "Cowzy.jpg",
       },
       {
         title: "Vinilo Los Tres",
         category: "Destacado",
-        photo: "img/Vinilolostres.jpg",
+        photo: "Vinilolostres.jpg",
       },
 
       ];
