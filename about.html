@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jasmín Castillo - Diseñadora Gráfica</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- Header -->
+            <header class="header">
+                <h1>Jasmín Castillo</h1>
+                <p>Diseñadora Gráfica UX/UI</p>
+            </header>
+
+            <!-- Navigation -->
+            <nav class="nav">
+                <a href="index.html" class="active">Portafolio</a>
+                <a href="about.html">Sobre mí</a>
+            </nav>
+
+            <!-- Gallery -->
+            <section class="gallery">
+                <h3>Sobre mí</h3>
+                <br />
+                <p>
+                    Diseñadora en formación con especialización en Interfaces e Interacciones (UI/UX), con un perfil integral orientado al diseño de productos. Mi motivación es resolver problemas a través del diseño para mejorar la vida de
+                    las personas, creando experiencias visuales y digitales que sean significativas. 
+                </p>
+                <p>
+                    He participado en proyectos aplicando Design Thinking y metodologías centradas en el usuario, con dominio de Figma y Adobe Creative Suite para wireframes, prototipos y sistemas visuales. Me destaco por mi liderazgo, comunicación y trabajo en equipo, junto con una fuerte orientación a la mejora continua.
+                </p>
+
+               
+                <div class="chart">
+                    <h3>Cantidad de proyectos</h3>
+                    <p>Gráfico de la cantidad de proyectos realizados por área de trabajo</p>
+                    <canvas id="projectsChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>© 2025 Jasmín Castillo. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="https://www.behance.net/jasmincastill">Behance</a>
+                    <a href="https://www.linkedin.com/in/jasm%C3%ADncastillo-hidalgo/">LinkedIn</a>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            new Chart("projectsChart", {
+                type: "bar",
+                data: {
+                    labels: ["UX/UI", "Editorial", "Identidad visual", "Motion graphics", "otros"],
+                    datasets: [
+                        {
+                            label: "Habitantes",
+                            data: [5, 4, 4, 3, 7],
+
+                            backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(255, 159, 64, 0.2)", "rgba(255, 205, 86, 0.2)", "rgba(75, 192, 192, 0.2)", "rgba(54, 162, 235, 0.2)", "rgba(153, 102, 255, 0.2)"],
+                            borderColor: ["rgb(255, 99, 132)", "rgb(255, 159, 64)", "rgb(255, 205, 86)", "rgb(75, 192, 192)", "rgb(54, 162, 235)", "rgb(153, 102, 255)"],
+
+                            borderWidth: 0,
+                        },
+                    ],
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                    },
+                },
+            });
+        </script>
+    </body>
+</html>
